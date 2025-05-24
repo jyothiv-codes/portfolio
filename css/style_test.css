@@ -600,7 +600,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
@@ -11276,7 +11276,6 @@ body {
     padding: 15px;
 }
 
-
 /* Styles for large desktops */
 @media (min-width: 1025px) {
     /* Ensuring header and navigation stay centered */
@@ -11328,7 +11327,7 @@ body {
     }
 
     .project {
-        flex: 1 1 calc(33.333% - 40px); /* Three columns on larger screens */
+        flex: 1 1 calc(50% - 40px); /* Two columns instead of three */
         margin-bottom: 30px;
     }
 }
