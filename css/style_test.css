@@ -11220,9 +11220,10 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   width: 90%;
-  margin: 0 auto; /* Center-aligns the entire skills container */
+  margin: 0 auto;
   margin-bottom: 20px;
   margin-top: 20px;
+  align-items: start;
 }
 
 .skill-category {
@@ -11246,15 +11247,16 @@ body {
 .skill-box {
   background-color: #ffffff;
   border: 2px solid #000000;
-  border-radius: 8px;
-  padding: 10px 20px;
+  border-radius: 50px;
+  padding: 6px 16px;
   text-align: center;
   display: inline-block;
-  min-width: 100px;
-  max-width: 200px;
+  width: fit-content;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
-  margin: 5px;
+  margin: 4px;
+  font-size: 0.85rem;
+  white-space: nowrap;
 }
 
 .skill-box:hover {
