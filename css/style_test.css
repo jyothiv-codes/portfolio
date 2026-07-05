@@ -11446,3 +11446,34 @@ img {
     margin: 0.25rem;
 }
 
+/* Override the oversized project card padding/spacing */
+.projects-section .project-text {
+    padding: 1.25rem !important;
+    font-size: 95%;
+    text-align: left;
+}
+
+.project-text h4 {
+    margin-bottom: 0.5rem;
+}
+
+.project-text p {
+    line-height: 1.45;
+    margin-bottom: 1rem;
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 0 !important;
+    justify-content: flex-start;
+}
+
+.project-item .project {
+    text-align: left;
+}
+
+.ml-project-container {
+    align-items: start;
+}
