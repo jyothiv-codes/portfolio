@@ -11467,7 +11467,7 @@ img {
     flex-wrap: wrap;
     gap: 8px;
     margin-top: 0 !important;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .project-item .project {
